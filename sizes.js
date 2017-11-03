@@ -1,5 +1,6 @@
+export const IntegerSIZE = 32;
+
 export function completeBitBoardSize(bBSize) {
-    const IntegerSIZE = 32;
     bBSize.length = Math.ceil(bBSize.numberOfBits / IntegerSIZE);
     bBSize.map = new Array(bBSize.numberOfBits);
     for (let i = 0; i < bBSize.numberOfBits; ++i) {
