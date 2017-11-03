@@ -11,10 +11,6 @@ export default class BitBoard {
         this.bBSize = bBSize;
         this.chunks = typeof bitBoard === 'undefined' ? new Array(this.bBSize.length) : bitBoard.chunks.slice();
     }
-    /**
-     * Sets a bit on the provided position.
-     * 
-     */
     setBit(i) {
         this.chunks[this.bBSize.map[i].chunk] |= 1 << this.bBSize.map[i].position;
     }
