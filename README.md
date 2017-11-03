@@ -229,7 +229,7 @@ Returns chunks as a single string.
 
 
 
-#### BitBoard.Or(a, a) 
+#### BitBoard.Or(a, b) 
 
 The static union operation (or).
 
@@ -241,7 +241,7 @@ The static union operation (or).
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 | a | `BitBoard`  | The first bit board. | &nbsp; |
-| a | `BitBoard`  | The second bit board. | &nbsp; |
+| b | `BitBoard`  | The second bit board. | &nbsp; |
 
 
 
@@ -253,7 +253,7 @@ The static union operation (or).
 
 
 
-#### BitBoard.And(a, a) 
+#### BitBoard.And(a, b) 
 
 The static intersection operation (and).
 
@@ -265,7 +265,7 @@ The static intersection operation (and).
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 | a | `BitBoard`  | The first bit board. | &nbsp; |
-| a | `BitBoard`  | The second bit board. | &nbsp; |
+| b | `BitBoard`  | The second bit board. | &nbsp; |
 
 
 
@@ -277,7 +277,7 @@ The static intersection operation (and).
 
 
 
-#### BitBoard.And(a, a) 
+#### BitBoard.And(a, b) 
 
 The static exclusive or operation (xor).
 
@@ -289,7 +289,7 @@ The static exclusive or operation (xor).
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 | a | `BitBoard`  | The first bit board. | &nbsp; |
-| a | `BitBoard`  | The second bit board. | &nbsp; |
+| b | `BitBoard`  | The second bit board. | &nbsp; |
 
 
 
@@ -301,7 +301,7 @@ The static exclusive or operation (xor).
 
 
 
-#### BitBoard.Neg(a, a) 
+#### BitBoard.Neg(a, b) 
 
 The static complement operation (xor).
 
@@ -313,7 +313,7 @@ The static complement operation (xor).
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 | a | `BitBoard`  | The first bit board. | &nbsp; |
-| a | `BitBoard`  | The second bit board. | &nbsp; |
+| b | `BitBoard`  | The second bit board. | &nbsp; |
 
 
 

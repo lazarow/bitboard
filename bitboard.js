@@ -137,7 +137,7 @@ export default class BitBoard {
     /**
      * The static union operation (or).
      * @param {BitBoard} a The first bit board.
-     * @param {BitBoard} a The second bit board.
+     * @param {BitBoard} b The second bit board.
      * @returns {BitBoard}
      */
     static Or(a, b) {
@@ -148,7 +148,7 @@ export default class BitBoard {
     /**
      * The static intersection operation (and).
      * @param {BitBoard} a The first bit board.
-     * @param {BitBoard} a The second bit board.
+     * @param {BitBoard} b The second bit board.
      * @returns {BitBoard}
      */
     static And(a, b) {
@@ -159,7 +159,7 @@ export default class BitBoard {
     /**
      * The static exclusive or operation (xor).
      * @param {BitBoard} a The first bit board.
-     * @param {BitBoard} a The second bit board.
+     * @param {BitBoard} b The second bit board.
      * @returns {BitBoard}
      */
     static And(a, b) {
@@ -170,7 +170,7 @@ export default class BitBoard {
     /**
      * The static complement operation (xor).
      * @param {BitBoard} a The first bit board.
-     * @param {BitBoard} a The second bit board.
+     * @param {BitBoard} b The second bit board.
      * @returns {BitBoard}
      */
     static Neg(a) {
